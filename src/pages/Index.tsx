@@ -1,5 +1,5 @@
 import Navbar from "@/components/Navbar";
-import { Search, ChevronLeft, ChevronRight, ArrowLeft, ArrowRight, Share2 } from "lucide-react";
+import { Search, ChevronLeft, ChevronRight, ArrowLeft, ArrowRight, Share2, ChevronUp } from "lucide-react";
 
 const Index = () => {
   return (
@@ -80,8 +80,8 @@ const Index = () => {
                 <div className="flex-1">
                   <span className="text-[#D946EF]">const</span>
                   <span className="text-[#9b87f5]"> App </span>
-                  <span className="text-[#F1F0FB]">= () =></span>
-                  <span className="text-[#F1F0FB]"> {}</span>
+                  <span className="text-[#F1F0FB]">= () {'=>'}</span>
+                  <span className="text-[#F1F0FB]"> {'{}'}</span>
                 </div>
               </div>
             </div>
